@@ -8,8 +8,6 @@ const understandRequest = (req, res, next) => {
     const pathUptoDo = stringUtil.splitFromStart(path, ".");
     const jsonFilePath = pathUptoDo + ".json";
 
-    console.log(pathUptoDo);
-
     // The magic of dynamic db.json starts from here
     const dbPath = fileUtil
         .findFile("./JSONData", jsonFilePath)
@@ -27,11 +25,11 @@ const understandRequest = (req, res, next) => {
     //   }
     // });
 
-    const dbRoute = routeJSON[requiredRoute];
+    // const dbRoute = routeJSON[requiredRoute];
 
     let result = "";
-    if (dbRoute !== undefined) {
-        result = dbRoute.substring(1);
+    if (pathUptoDo !== undefined) {
+        result = "/" + pathUptoDo;
     }
 
     // Add in response
