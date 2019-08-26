@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "mock:api": "json-server --routes api/routes.json --watch api/db.json --port 4000",
-    "server": "node ./api/hope.js"
+    "server": "node ./api/hope.js",
+    "dev": "nodemon ./api/hope.js"
   },
   "author": "",
   "license": "ISC",
