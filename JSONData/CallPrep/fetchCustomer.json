@@ -1,0 +1,203 @@
+{
+  "id": 102581542,
+  "customerName": "Permalink",
+  "customerNumber": "757027",
+  "companyCode": "",
+  "riskClass": "HIGH",
+  "paymentBehaviour": "Bad",
+  "currency": "$",
+  "reasons": [
+    "At least one invoice found with \u003e250 overdue since 8 days",
+    "Potential surge in 61-90 days bucket",
+    "90% credit utilized  and High credit risk class",
+    "61.95% invoices pastdue over 30 days",
+    "4 Invoices worth of $63034 in 31-60 days bucket",
+    "3 broken P2P for $83k"
+  ],
+  "accountDetails": {
+    "actualCreditLimit": 100.0,
+    "creditUtilized": 90.0,
+    "totalActualOpenAmount": 796.7,
+    "totalCurrentOpenAmount": 34132.0,
+    "totalCurrentInvoiceCount": 3,
+    "totalPastDueInvoiceCount": 0,
+    "totalPastDueAmount": 0.0,
+    "totalPastDuePercent": 0.0,
+    "totalDisputedAmount": 0.0,
+    "pastDueBucketDocumentCount": [1, 4, 2, 1],
+    "pastDueBucketDocumentAmount": [10123.0, 63034.0, 5673.0, 3214.0],
+    "bucketNames": ["0-30", "31-60", "61-90", "\u003e91"],
+    "currencyType": "ACCOUNT_LEVEL_CURRENCY",
+    "disputeCurrencyType": "ACCOUNT_LEVEL_CURRENCY"
+  },
+  "predictedAccountDetails": {
+    "actualCreditLimit": 0.0,
+    "creditUtilized": 0.0,
+    "totalActualOpenAmount": 0.0,
+    "totalCurrentOpenAmount": 21009.0,
+    "totalCurrentInvoiceCount": 4,
+    "totalPastDueInvoiceCount": 0,
+    "totalPastDueAmount": 0.0,
+    "totalPastDuePercent": 0.0,
+    "totalDisputedAmount": 0.0,
+    "pastDueBucketDocumentCount": [2, 7, 1, 3],
+    "pastDueBucketDocumentAmount": [22001.0, 15497.0, 51242.0, 5385.0],
+    "bucketNames": ["0-30", "31-60", "61-90", "\u003e91"],
+    "creditLimitUtilizationPercent": 0.0
+  },
+  "contacts": [
+    {
+      "id": 18267705,
+      "isPrimary": false,
+      "type": "External",
+      "firstName": "Unnamed",
+      "lastName": "Unnamed",
+      "email": "hrc_277460964406433_102581542@test.com",
+      "mobileNumber": "8325361512"
+    },
+    {
+      "id": 18267790,
+      "isPrimary": false,
+      "type": "External",
+      "firstName": "Unnamed",
+      "lastName": "Unnamed",
+      "email": "hrc_1628660070492858_102581542@test.com",
+      "mobileNumber": "8325361720"
+    },
+    {
+      "id": 18267851,
+      "isPrimary": false,
+      "type": "External",
+      "firstName": "Test",
+      "lastName": "Test",
+      "email": "praveen.tiwary@highradius.com",
+      "phoneNumber": "8325361720"
+    },
+    {
+      "id": 18267460,
+      "isPrimary": true,
+      "type": "External",
+      "firstName": "John",
+      "lastName": "William",
+      "email": "abhinav.pachauri@highradius.com",
+      "phoneNumber": "8325361720"
+    }
+  ],
+  "notes": [],
+  "paymentCommitments": [
+    {
+      "id": 108499,
+      "type": "Open",
+      "customerId": 102581542,
+      "pcItems": [],
+      "committedAmount": 7000.0,
+      "committedDate": {
+        "date": "2019-09-09",
+        "time": { "hour": 0, "minute": 0, "second": 0, "nano": 0 }
+      },
+      "committedOn": {
+        "date": "2019-02-05",
+        "time": { "hour": 0, "minute": 0, "second": 0, "nano": 0 }
+      },
+      "committedBy": {
+        "isPrimary": false,
+        "type": "",
+        "role": "",
+        "title": "",
+        "firstName": "",
+        "lastName": "",
+        "email": "",
+        "phoneNumber": "",
+        "mobileNumber": "",
+        "faxNumber": "",
+        "address": "",
+        "city": "",
+        "state": "",
+        "country": "",
+        "zip": "",
+        "extension": ""
+      },
+      "currency": "$"
+    },
+    {
+      "id": 109100,
+      "type": "Open",
+      "customerId": 102581542,
+      "pcItems": [],
+      "committedAmount": 1000.0,
+      "committedDate": {
+        "date": "2019-05-10",
+        "time": { "hour": 0, "minute": 0, "second": 0, "nano": 0 }
+      },
+      "committedOn": {
+        "date": "2019-05-10",
+        "time": { "hour": 0, "minute": 0, "second": 0, "nano": 0 }
+      },
+      "committedBy": {
+        "isPrimary": false,
+        "type": "",
+        "role": "",
+        "title": "",
+        "firstName": "",
+        "lastName": "",
+        "email": "",
+        "phoneNumber": "",
+        "mobileNumber": "",
+        "faxNumber": "",
+        "address": "",
+        "city": "",
+        "state": "",
+        "country": "",
+        "zip": "",
+        "extension": ""
+      },
+      "currency": "$"
+    }
+  ],
+  "payments": [
+    {
+      "id": 79571414,
+      "customerId": 102581542,
+      "documentNumber": "8142411170",
+      "paymentAmount": 491.75,
+      "currency": "$",
+      "paymentDate": "2017-02-02"
+    },
+    {
+      "id": 79563138,
+      "customerId": 102581542,
+      "documentNumber": "8142432590",
+      "paymentAmount": 491.75,
+      "currency": "$",
+      "paymentDate": "2017-01-26"
+    },
+    {
+      "id": 79550776,
+      "customerId": 102581542,
+      "documentNumber": "8142425388",
+      "paymentAmount": 351.25,
+      "currency": "$",
+      "paymentDate": "2017-01-12"
+    },
+    {
+      "id": 79549606,
+      "customerId": 102581542,
+      "documentNumber": "8142423398",
+      "paymentAmount": 562.0,
+      "currency": "$",
+      "paymentDate": "2017-01-05"
+    },
+    {
+      "id": 79549605,
+      "customerId": 102581542,
+      "documentNumber": "8142419449",
+      "paymentAmount": 702.5,
+      "currency": "$",
+      "paymentDate": "2017-01-05"
+    }
+  ],
+  "suggestedActions": [],
+  "tasks": [],
+  "disputes": [],
+  "userActionHistory": []
+}

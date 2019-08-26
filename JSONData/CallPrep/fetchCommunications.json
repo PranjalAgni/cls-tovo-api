@@ -1,0 +1,119 @@
+[
+  {
+    "id": 368849,
+    "communicationTime": "2019-07-05T00:00:00",
+    "type": "Call",
+    "call": {
+      "id": 368849,
+      "customerId": 102581542,
+      "callingNumber": "8325361720",
+      "startTime": "2019-07-05T00:00:00",
+      "endTime": "2019-07-05T00:01:28",
+      "duration": 88,
+      "totalOpenAmount": 796.7,
+      "totalPastDueAmount": 828.95,
+      "note": {
+        "id": 3663217,
+        "customerId": 102581542,
+        "noteItems": [],
+        "subject": "Communication : OUTBOUND CALL",
+        "createdTime": "2019-07-05T03:23:27",
+        "createdUser": ""
+      },
+      "communicationReason": "OUTBOUND CALL",
+      "uniqueId": "OUT-18325361720-05072019-08:21:55"
+    }
+  },
+  {
+    "id": 244071,
+    "communicationTime": "2019-06-04T02:40:33",
+    "type": "Correspondence",
+    "correspondence": {
+      "customerId": 102581542,
+      "to": "praveen.tiwary@highradius.com",
+      "from": "pratyush.sunanda@highradius.com",
+      "corrTypeId": 244071,
+      "subject": "Test cid:102581542_190604024033633",
+      "body": "Hi,\u003cbr /\u003e\u003cbr /\u003eThis is a send for testing purpose",
+      "documentIds": []
+    }
+  },
+  {
+    "id": 368597,
+    "communicationTime": "2019-05-31T00:00:00",
+    "type": "Call",
+    "call": {
+      "id": 368597,
+      "customerId": 102581542,
+      "callingNumber": "8325361720",
+      "startTime": "2019-05-31T00:00:00",
+      "endTime": "2019-05-31T00:00:21",
+      "duration": 21,
+      "totalOpenAmount": 796.7,
+      "totalPastDueAmount": 828.95,
+      "note": {
+        "id": 3662555,
+        "customerId": 102581542,
+        "noteItems": [],
+        "subject": "Communication : OUTBOUND CALL",
+        "createdTime": "2019-05-31T02:41:49",
+        "createdUser": ""
+      },
+      "communicationReason": "OUTBOUND CALL",
+      "uniqueId": "OUT-18325361720-31042019-07:41:20"
+    }
+  },
+  {
+    "id": 368571,
+    "communicationTime": "2019-05-28T00:00:00",
+    "type": "Call",
+    "call": {
+      "id": 368571,
+      "customerId": 102581542,
+      "callingNumber": "8325361720",
+      "startTime": "2019-05-28T00:00:00",
+      "endTime": "2019-05-28T00:00:11",
+      "duration": 11,
+      "status": -1,
+      "callSummary": "",
+      "totalOpenAmount": 796.7,
+      "totalPastDueAmount": 828.95,
+      "note": {
+        "id": 3662526,
+        "customerId": 102581542,
+        "noteItems": [],
+        "subject": "Communication : OUTBOUND CALL",
+        "noteContent": "",
+        "createdTime": "2019-05-28T09:30:58",
+        "createdUser": ""
+      },
+      "communicationReason": "OUTBOUND CALL",
+      "uniqueId": "OUT-18325361720-28042019-14:30:33"
+    }
+  },
+  {
+    "id": 368524,
+    "communicationTime": "2019-05-15T00:00:00",
+    "type": "Call",
+    "call": {
+      "id": 368524,
+      "customerId": 102581542,
+      "callingNumber": "8325361720",
+      "startTime": "2019-05-15T00:00:00",
+      "endTime": "2019-05-15T00:00:21",
+      "duration": 21,
+      "totalOpenAmount": 34132.0,
+      "totalPastDueAmount": 828.95,
+      "note": {
+        "id": 3662238,
+        "customerId": 102581542,
+        "noteItems": [],
+        "subject": "Communication : OUTBOUND CALL",
+        "createdTime": "2019-05-15T05:21:42",
+        "createdUser": ""
+      },
+      "communicationReason": "OUTBOUND CALL",
+      "uniqueId": "OUT-18325361720-15042019-10:21:19"
+    }
+  }
+]

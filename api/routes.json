@@ -1,0 +1,8 @@
+{
+  "/cms/tovo/v1/getUserProfile.do": "/getUserProfile",
+  "/cms/tovo/v1/getUserOverviewJson.do": "/getUserOverviewJson",
+  "/cms/tovo/v1/getUserCallWorkBook.do": "/getUserCallWorkBook",
+  "/cms/tovo/v1/getUpcomingSummary.do": "/getUpcomingSummary",
+  "/cms/tovo/v1/fetchCustomer.do?:id": "/fetchCustomer:id",
+  "/cms/tovo/v1/fetchCommunications.do": "/fetchCommunications"
+}
