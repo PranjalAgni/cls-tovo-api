@@ -1,11 +1,8 @@
-const routeJSON = require("./routes.json");
-const constants = require("./utils/constants");
 const stringUtil = require("./utils/stringUtil");
 const fileUtil = require("./utils/fileUtil");
 
 const understandRequest = (req, res, next) => {
-    const path = stringUtil.stringDifference(req.path, constants.rrdmsUrlPath);
-    const pathUptoDo = stringUtil.splitFromStart(path, ".");
+    const pathUptoDo = stringUtil.splitFromStart(req.params.route, ".");
     const jsonFilePath = pathUptoDo + ".json";
 
     // The magic of dynamic db.json starts from here
@@ -15,7 +12,6 @@ const understandRequest = (req, res, next) => {
 
     const jsonDB = require("./../" + dbPath + "/" + jsonFilePath);
 
-    const requiredRoute = req.params.route;
     // Object Keys
     // filter if query is present
 
@@ -24,8 +20,6 @@ const understandRequest = (req, res, next) => {
     //     return true;
     //   }
     // });
-
-    // const dbRoute = routeJSON[requiredRoute];
 
     let result = "";
     if (pathUptoDo !== undefined) {
@@ -42,7 +36,7 @@ const understandRequest = (req, res, next) => {
     // const query = req.params.query;
     // const dataHolder = db[requiredRoute];
 
-    // I have commented this line as it is not required in dynamic JSON
+    // I(sdc224) have commented this line as it is not required in dynamic JSON
     // const dataHolder = db[result];
 
     const dataHolder = jsonDB;
