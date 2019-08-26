@@ -121,6 +121,61 @@
         "pastDueBucketDocumentAmount": [2982.0, 8993.0, 2643.0, 4544.0],
         "bucketNames": ["0-30", "31-60", "61-90", "\u003e91"],
         "totalCurrentOpenAmount": 29853.0
+      },
+      {
+        "id": 102581549,
+        "customerName": "Flipkart",
+        "customerNumber": "757033",
+        "currency": "$",
+        "totalBrokenPromises": 0,
+        "pastDueBucketDocumentCount": [1, 3, 1, 2],
+        "pastDueBucketDocumentAmount": [2982.0, 8993.0, 2643.0, 4544.0],
+        "bucketNames": ["0-30", "31-60", "61-90", "\u003e91"],
+        "totalCurrentOpenAmount": 29853.0
+      },
+      {
+        "id": 102581550,
+        "customerName": "Amazon",
+        "customerNumber": "757034",
+        "currency": "$",
+        "totalBrokenPromises": 0,
+        "pastDueBucketDocumentCount": [1, 3, 1, 2],
+        "pastDueBucketDocumentAmount": [2982.0, 8993.0, 2643.0, 4544.0],
+        "bucketNames": ["0-30", "31-60", "61-90", "\u003e91"],
+        "totalCurrentOpenAmount": 29853.0
+      },
+      {
+        "id": 102581551,
+        "customerName": "Snapdeal",
+        "customerNumber": "757035",
+        "currency": "$",
+        "totalBrokenPromises": 0,
+        "pastDueBucketDocumentCount": [1, 3, 1, 2],
+        "pastDueBucketDocumentAmount": [2982.0, 8993.0, 2643.0, 4544.0],
+        "bucketNames": ["0-30", "31-60", "61-90", "\u003e91"],
+        "totalCurrentOpenAmount": 29853.0
+      },
+      {
+        "id": 102581552,
+        "customerName": "ABC Products",
+        "customerNumber": "757036",
+        "currency": "$",
+        "totalBrokenPromises": 0,
+        "pastDueBucketDocumentCount": [1, 3, 1, 2],
+        "pastDueBucketDocumentAmount": [2982.0, 8993.0, 2643.0, 4544.0],
+        "bucketNames": ["0-30", "31-60", "61-90", "\u003e91"],
+        "totalCurrentOpenAmount": 29853.0
+      },
+      {
+        "id": 102581553,
+        "customerName": "Walmart",
+        "customerNumber": "757037",
+        "currency": "$",
+        "totalBrokenPromises": 0,
+        "pastDueBucketDocumentCount": [1, 3, 1, 2],
+        "pastDueBucketDocumentAmount": [2982.0, 8993.0, 2643.0, 4544.0],
+        "bucketNames": ["0-30", "31-60", "61-90", "\u003e91"],
+        "totalCurrentOpenAmount": 29853.0
       }
     ]
   },
