@@ -36,14 +36,19 @@ const understandRequest = (req, res, next) => {
     const query = req.query.customerId;
     // Filter values on the above query
     // Assuming query is id
-    const dataResult = dataHolder.find(data => {
-      if (data.id == query) {
-        return data;
-      }
-    });
+    if (dataHolder.length) {
+      const dataResult = dataHolder.find(data => {
+        if (data.id == query) {
+          return data;
+        }
+      });
+      res.data = dataResult;
+    } else {
+      //TODO: Currently Return all the data
+      res.data = dataHolder;
+    }
 
     //console.log(dataResult);
-    res.data = dataResult;
   }
 
   next();
