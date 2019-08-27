@@ -1,6 +1,6 @@
-const stringUtil = require("./utils/stringUtil");
-const constants = require("./utils/constants");
-const { getMap } = require("./utils/fileDB");
+const stringUtil = require("./Utils/stringUtil");
+const constants = require("./Utils/constants");
+const { getMap } = require("./Utils/fileDB");
 
 const lowDB = getMap();
 
