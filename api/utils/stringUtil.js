@@ -21,7 +21,25 @@ function stringDifference(bigString, smallString) {
     return bigString.split(smallString).join("");
 }
 
+/**
+ * Detects whether an array contains the matched String or not... True if partially matched
+ * @param {Array} stringArray Array of Strings, in which we need to match the word
+ * @param {String} matchWord The string for which we find the match
+ * @returns True if matched, False if not matched
+ */
+function stringMatch(stringArray, matchWord) {
+    for (const string in stringArray) {
+        if (stringArray.hasOwnProperty(string)) {
+            const element = stringArray[string];
+            if (element.indexOf(matchWord) !== -1) return true;
+        }
+    }
+
+    return false;
+}
+
 module.exports = {
     splitFromStart,
-    stringDifference
+    stringDifference,
+    stringMatch
 };
