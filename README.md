@@ -1,17 +1,16 @@
 **Running the Project**
 
-\*\* Install Dependencies
-js
+- Install Dependencies
 
 ```
-npm i cors express
+npm install
 ```
 
-\*\* Run the Express server
-js
+- Run the Express server
+  js
 
 ```
 npm run server
 ```
 
-This will start a server on port 4000
+This will start a express server on port 4000
