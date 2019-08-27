@@ -4,7 +4,7 @@
 js
 
 ```
-npm i cors express
+npm i
 ```
 
 \*\* Run the Express server
@@ -14,7 +14,7 @@ js
 npm run server
 ```
 
-Note: If you want to use nodemon, Run the server using
+\* Note: If you want to use nodemon, Run the server using
 
 ```
 npm run dev
