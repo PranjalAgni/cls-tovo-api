@@ -3,7 +3,7 @@
 -   Install Dependencies
 
 ```
-npm i
+npm install
 ```
 
 -   Run the Express server
@@ -13,7 +13,7 @@ npm i
 npm run server
 ```
 
-\* Note: If you want to use nodemon, Run the server using
+-   Note: If you want to use nodemon, Run the server using
 
 ```
 npm run dev
