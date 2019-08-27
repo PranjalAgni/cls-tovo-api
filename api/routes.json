@@ -1,8 +1,0 @@
-{
-  "getUserProfile.do": "/getUserProfile",
-  "getUserOverviewJson.do": "/getUserOverviewJson",
-  "getUserCallWorkBook.do": "/getUserCallWorkBook",
-  "getUpcomingSummary.do": "/getUpcomingSummary",
-  "fetchCustomer.do": "/fetchCustomer",
-  "fetchCommunications.do": "/fetchCommunications"
-}
