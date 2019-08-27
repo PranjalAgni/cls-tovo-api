@@ -5,7 +5,7 @@ const paginationString = "page";
 const PORT = 4000;
 
 module.exports = {
-    rrdmsUrlPath,
-    paginationString,
-    PORT
+  rrdmsUrlPath,
+  paginationString,
+  PORT
 };
