@@ -1,11 +1,29 @@
-const stringUtil = require("./utils/stringUtil");
-const { getMap } = require("./utils/fileDB");
+/**
+ * This is the middleware file which is used in hope.js
+ * All the POST requests are handled in this file only
+ */
+
+const stringUtil = require("./Utils/stringUtil");
+const constants = require("./Utils/constants");
+const { getMap } = require("./Utils/fileDB");
+
 const lowDB = getMap();
 
 const understandRequest = (req, res, next) => {
+  // Sourodeep Chatterjee
+  // req.params.route is the dynamic route which is coming to us from the cls_tovo_ui
+  // For example, if the page is .../getUserOverview.do, then req.params.route will return getUserOverview.do
+
+  /**
+   * @constant pathUptoDo for splitting the '.do' part from URL
+   */
   const pathUptoDo = stringUtil.splitFromStart(req.params.route, ".");
+
+  /**
+   * @constant jsonFilePath for getting the JSON file from that URL
+   */
   const jsonFilePath = pathUptoDo + ".json";
-  // The magic of dynamic db.json starts from here
+
   // @PranjalAgni - Hash Map Implementation
   const dbPath = lowDB.get(jsonFilePath).replace(/\\/g, "/");
   const jsonDB = require("./../" + dbPath);
@@ -23,39 +41,59 @@ const understandRequest = (req, res, next) => {
     next();
   }
 
-  // If query is present
-  // const query = req.params.query;
-  // const dataHolder = db[requiredRoute];
-
-  // I(sdc224) have commented this line as it is not required in dynamic JSON
-  // const dataHolder = db[result];
-
   const dataHolder = jsonDB;
 
-  // console.log(dataHolder);
-
   res.isRoute = true;
-  console.log(req.query);
-  if (Object.keys(req.query).length === 0) {
+
+  const requestQuery = req.query;
+
+  /**
+   * @constant isPageQuery a bool denoting whether it is a pagination query
+   */
+  const isPageQuery = stringUtil.stringMatch(
+    Object.keys(requestQuery),
+    constants.paginationString
+  );
+
+  // TODO: Replace it with switch case and move it to other file
+  if (requestQuery.length === 0) {
     // All the values of that key
     res.data = dataHolder;
   } else {
-    const query = req.query.customerId;
-    // Filter values on the above query
-    // Assuming query is id
-    if (dataHolder.length) {
-      const dataResult = dataHolder.find(data => {
-        if (data.id == query) {
-          return data;
-        }
-      });
-      res.data = dataResult;
-    } else {
-      //TODO: Currently Return all the data
-      res.data = dataHolder;
-    }
+    // For pagination (sdc224)
+    if (isPageQuery) {
+      if (dataHolder.workbookItems) {
+        const startingValue = requestQuery.pageNumber * requestQuery.pageSize;
+        const endingValue =
+          (requestQuery.pageNumber + 1) * requestQuery.pageSize;
 
-    //console.log(dataResult);
+        const slicedData = dataHolder.workbookItems.slice(
+          startingValue,
+          endingValue
+        );
+
+        res.data = {
+          overview: dataHolder.overview,
+          workbookItems: slicedData
+        };
+      } else {
+        // For upcoming Card
+        res.data = dataHolder;
+      }
+    } else {
+      //@sdPr1me - query string present
+      const query = requestQuery.customerId;
+      // Filter values on the above query
+      // Assuming query is id
+      if (dataHolder.length) {
+        const dataResult = dataHolder.find(data => {
+          if (data.id == query) {
+            return data;
+          }
+        });
+        res.data = dataResult;
+      }
+    }
   }
 
   next();

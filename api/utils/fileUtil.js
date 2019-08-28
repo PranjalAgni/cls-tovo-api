@@ -1,9 +1,16 @@
+/**
+ * @author Sourodeep Chatterjee
+ * This is the helper library for searching Files in Directory
+ */
+
 const fs = require("fs");
 const path = require("path");
 
 /**
+ * @author Sourodeep Chatterjee
  * Find List of All files in a given Directory
  * @param {String} directoryPath The initial Directory Path. Note: The path is the starting path of this project Directory
+ * @exports findAllFilesList
  */
 function findAllFilesList(directoryPath) {
     fs.readdir(directoryPath, function(err, files) {
@@ -19,10 +26,13 @@ function findAllFilesList(directoryPath) {
 }
 
 /**
+ * @author Sourodeep Chatterjee
  * Find File of a particular name with its extension
+ * Note.. It is a recursive function
  * @param {String} startPath The Initial Directory Path
  * @param {String} fileName The File name you want to search for
  * @returns The Directory in which the file is present
+ * @exports findFile
  */
 function findFile(startPath, fileName) {
     if (!fs.existsSync(startPath)) {
