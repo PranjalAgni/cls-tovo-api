@@ -92,6 +92,8 @@ const understandRequest = (req, res, next) => {
           }
         });
         res.data = dataResult;
+      } else {
+        res.data = dataHolder;
       }
     }
   }
