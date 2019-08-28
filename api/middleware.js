@@ -1,19 +1,20 @@
-const stringUtil = require('./utils/stringUtil');
-const { getMap } = require('./utils/fileDB');
+const stringUtil = require("./utils/stringUtil");
+const { getMap } = require("./utils/fileDB");
 const lowDB = getMap();
+
 const understandRequest = (req, res, next) => {
-  const pathUptoDo = stringUtil.splitFromStart(req.params.route, '.');
-  const jsonFilePath = pathUptoDo + '.json';
+  const pathUptoDo = stringUtil.splitFromStart(req.params.route, ".");
+  const jsonFilePath = pathUptoDo + ".json";
   // The magic of dynamic db.json starts from here
   // @PranjalAgni - Hash Map Implementation
-  const dbPath = lowDB.get(jsonFilePath).replace(/\\/g, '/');
-  const jsonDB = require('./../' + dbPath);
+  const dbPath = lowDB.get(jsonFilePath).replace(/\\/g, "/");
+  const jsonDB = require("./../" + dbPath);
 
   // Object Keys
   // filter if query is present
-  let result = '';
+  let result = "";
   if (pathUptoDo !== undefined) {
-    result = '/' + pathUptoDo;
+    result = "/" + pathUptoDo;
   }
 
   // Add in response
