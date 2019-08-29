@@ -90,16 +90,19 @@ const understandRequest = (req, res, next) => {
         let dataResult = [];
 
         if (dataHolder[0].call || dataHolder[0].correspondence) {
-          const communicationArray = [];
-          dataHolder.filter(data => {
-            if (
-              (data.call && data.call.customerId == query) ||
-              (data.correspondence && data.correspondence.customerId == query)
-            )
-              communicationArray.push(data);
-          });
+          // passing all data right now to display for all customers
+          dataResult = dataHolder;
+          // implementation for filtering out data from dataHolder for each customer
+          // const communicationArray = [];
+          // dataHolder.filter(data => {
+          //   if (
+          //     (data.call && data.call.customerId == query) ||
+          //     (data.correspondence && data.correspondence.customerId == query)
+          //   )
+          //     communicationArray.push(data);
+          // });
 
-          dataResult = communicationArray;
+          // dataResult = communicationArray;
         } else {
           dataResult = dataHolder.find(data => {
             if (data.id == query) {
