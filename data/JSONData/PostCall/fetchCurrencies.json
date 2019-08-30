@@ -1,0 +1,22 @@
+[
+    {
+      "id": 0,
+      "code": "USD",
+      "symbol": "$"
+    },
+    {
+      "id": 1,
+      "code": "GHS",
+      "symbol": "€"
+    },
+    {
+      "id": 2,
+      "code": "NZD",
+      "symbol": "$"
+    },
+    {
+      "id": 3,
+      "code": "GBP",
+      "symbol": "£"
+    }
+  ]

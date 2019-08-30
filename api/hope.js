@@ -36,7 +36,7 @@ app.post(
   }
 );
 
-//ashutosh084 - added get functionality for providing images
+//@ashutosh084 - added get functionality for providing images
 app.get(`${constants.imagesUrlPath}/:fileName`, (req, res) => {
   if (fs.existsSync("./data/images/" + req.params.fileName)) {
     res.status(202).sendFile(req.params.fileName, {
