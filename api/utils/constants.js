@@ -28,6 +28,8 @@ const imagesUrlPath = "/static/tovo/images";
  */
 const paginationString = "page";
 
+const ignorePaginationFor = ["upcoming"];
+
 /**
  * @constant {Number} PORT conatins the default PORT for this API
  * @author Sourodeep Chatterjee
@@ -35,9 +37,10 @@ const paginationString = "page";
 const PORT = 4000;
 
 module.exports = {
-  rrdmsUrlPath,
-  jsonDataPath,
-  imagesUrlPath,
-  paginationString,
-  PORT
+    rrdmsUrlPath,
+    jsonDataPath,
+    imagesUrlPath,
+    paginationString,
+    ignorePaginationFor,
+    PORT,
 };
