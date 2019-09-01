@@ -59,52 +59,6 @@ function getAccessingPathForProp(
     return propWithValueFound ? pathStack : false;
 }
 
-// Deprecated -- must be removed, just here for inconsistency in database
-function getAccessingPathForPropDepr(
-    object,
-    propertyName,
-    propertyValue,
-    propertyOrName = null
-) {
-    if (!(object instanceof Object))
-        throw new TypeError(
-            "This function only works with Object as constructor"
-        );
-
-    let pathStack = [];
-    let propWithValueFound = false;
-
-    function startSearchingForPropRecursive(searchingObject) {
-        for (const key in searchingObject) {
-            if (Object.prototype.hasOwnProperty.call(searchingObject, key)) {
-                pathStack.push(key);
-
-                if (searchingObject[key] == propertyValue) {
-                    if (
-                        propertyName == key ||
-                        (propertyOrName && propertyOrName == key)
-                    ) {
-                        propWithValueFound = true;
-                        break;
-                    }
-                }
-
-                if (searchingObject[key] instanceof Object) {
-                    startSearchingForPropRecursive(searchingObject[key]);
-                    if (propWithValueFound) break;
-                }
-
-                pathStack.pop();
-            }
-        }
-    }
-
-    startSearchingForPropRecursive(object);
-    return propWithValueFound ? pathStack : false;
-}
-
-function accessNestedProps(object, propertyName, propertyValue) {}
-
 function getFirstOrDefaultPropFromObj(object, propertyName, propertyValue) {
     let result = null;
 
@@ -140,8 +94,6 @@ function getFirstOrDefaultPropFromObj(object, propertyName, propertyValue) {
     getPropRecursive(object);
     return result;
 }
-
-function getAllPropertyFromObject(object, propertyName, propertyValue) {}
 
 function getFirstOrDefaultFromArray(array, propertyName, propertyValue) {
     for (const item of array) {
