@@ -16,6 +16,8 @@ function ignorePagination(data) {
     for (const item of constants.ignorePaginationFor) {
         if (stringUtil.stringMatch(Object.keys(data), item)) return true;
     }
+
+    return false;
 }
 
 function handlePaginationQuery(
