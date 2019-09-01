@@ -61,5 +61,5 @@ function findFile(startPath, fileName) {
 
 module.exports = {
     findAllFilesList,
-    findFile
+    findFile,
 };

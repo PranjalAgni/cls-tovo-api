@@ -11,12 +11,12 @@
  * @returns {String} The modified String...empty if no given character found
  * @exports splitFromStart
  */
-splitFromStart = (string, uptoChar) => {
-  let index = string.indexOf(uptoChar);
+function splitFromStart(string, uptoChar) {
+    let index = string.indexOf(uptoChar);
 
-  if (index > 0) return string.slice(0, index);
-  else return "";
-};
+    if (index > 0) return string.slice(0, index);
+    else return "";
+}
 
 /**
  * @author Sourodeep Chatterjee
@@ -26,9 +26,9 @@ splitFromStart = (string, uptoChar) => {
  * @returns The difference String
  * @exports stringDifference
  */
-stringDifference = (bigString, smallString) => {
-  bigString.split(smallString).join("");
-};
+function stringDifference(bigString, smallString) {
+    bigString.split(smallString).join("");
+}
 
 /**
  * @author Sourodeep Chatterjee
@@ -38,19 +38,21 @@ stringDifference = (bigString, smallString) => {
  * @returns True if matched, False if not matched
  * @exports stringMatch
  */
-stringMatch = (stringArray, matchWord) => {
-  for (const string in stringArray) {
-    if (stringArray.hasOwnProperty(string)) {
-      const element = stringArray[string];
-      if (element.indexOf(matchWord) !== -1) return true;
+function stringMatch(stringArray, matchWord) {
+    for (const string in stringArray) {
+        // As it just touches some harcoded keys for hasOwnProperty
+        // eslint-disable-next-line no-prototype-builtins
+        if (stringArray.hasOwnProperty(string)) {
+            const element = stringArray[string];
+            if (element.indexOf(matchWord) !== -1) return true;
+        }
     }
-  }
 
-  return false;
-};
+    return false;
+}
 
 module.exports = {
-  splitFromStart,
-  stringDifference,
-  stringMatch
+    splitFromStart,
+    stringDifference,
+    stringMatch,
 };
