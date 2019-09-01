@@ -1,22 +1,28 @@
 {
-  "name": "blog",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "mock:api": "json-server --routes api/routes.json --watch api/db.json --port 4000",
-    "server": "node ./api/hope.js",
-    "dev": "nodemon ./api/hope.js"
-  },
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "cors": "^2.8.5",
-    "eslint": "^6.3.0",
-    "express": "^4.17.1",
-    "faker": "^4.1.0",
-    "hashmap": "^2.3.0",
-    "json-server": "^0.15.0",
-    "nodemon": "^1.19.1"
-  }
+    "name": "blog",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "mock:api": "json-server --routes api/routes.json --watch api/db.json --port 4000",
+        "server": "node ./api/hope.js",
+        "dev": "nodemon ./api/hope.js",
+        "lint": "node_modules/.bin/eslint --fix . && echo 'Lint complete.'"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "cors": "^2.8.5",
+        "express": "^4.17.1",
+        "faker": "^4.1.0",
+        "hashmap": "^2.3.0",
+        "json-server": "^0.15.0",
+        "nodemon": "^1.19.1"
+    },
+    "devDependencies": {
+        "eslint": "^6.3.0",
+        "eslint-config-prettier": "^6.1.0",
+        "eslint-plugin-prettier": "^3.1.0",
+        "prettier": "^1.18.2"
+    }
 }
