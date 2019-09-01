@@ -11,12 +11,12 @@
  * @returns {String} The modified String...empty if no given character found
  * @exports splitFromStart
  */
-function splitFromStart(string, uptoChar) {
+const splitFromStart = (string, uptoChar) => {
     let index = string.indexOf(uptoChar);
 
     if (index > 0) return string.slice(0, index);
     else return "";
-}
+};
 
 /**
  * @author Sourodeep Chatterjee
@@ -26,9 +26,8 @@ function splitFromStart(string, uptoChar) {
  * @returns The difference String
  * @exports stringDifference
  */
-function stringDifference(bigString, smallString) {
+const stringDifference = (bigString, smallString) =>
     bigString.split(smallString).join("");
-}
 
 /**
  * @author Sourodeep Chatterjee
@@ -38,7 +37,7 @@ function stringDifference(bigString, smallString) {
  * @returns True if matched, False if not matched
  * @exports stringMatch
  */
-function stringMatch(stringArray, matchWord) {
+const stringMatch = (stringArray, matchWord) => {
     for (const string in stringArray) {
         // As it just touches some harcoded keys for hasOwnProperty
         // eslint-disable-next-line no-prototype-builtins
@@ -49,10 +48,20 @@ function stringMatch(stringArray, matchWord) {
     }
 
     return false;
-}
+};
+
+const camelToTitle = camelCase =>
+    camelCase
+        .replace(/([A-Z])/g, match => ` ${match}`)
+        .replace(/^./, match => match.toUpperCase());
+
+const convertFirstLetterToLower = string =>
+    string.replace(/^\w/, c => c.toLowerCase());
 
 module.exports = {
     splitFromStart,
     stringDifference,
     stringMatch,
+    camelToTitle,
+    convertFirstLetterToLower,
 };
