@@ -28,6 +28,8 @@ const imagesUrlPath = "/static/tovo/images";
  */
 const paginationString = "page";
 
+const paginationArrayIndex = "bucketNumber";
+
 const ignorePaginationFor = ["upcoming"];
 
 /**
@@ -41,6 +43,7 @@ module.exports = {
     jsonDataPath,
     imagesUrlPath,
     paginationString,
+    paginationArrayIndex,
     ignorePaginationFor,
     PORT,
 };
