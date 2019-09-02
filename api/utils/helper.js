@@ -5,6 +5,15 @@ function isEmptyObject(obj) {
     return true;
 }
 
+function deletePrimaryKey(object) {
+    for (const key in object) {
+        // eslint-disable-next-line no-prototype-builtins
+        if (object.hasOwnProperty(key)) {
+            if (key.toLowerCase().indexOf("id") != -1) delete object[key];
+        }
+    }
+}
+
 function findArrayFromObject(object) {
     for (const key in object) {
         if (Object.prototype.hasOwnProperty.call(object, key)) {
@@ -95,13 +104,14 @@ function getFirstOrDefaultPropFromObj(object, propertyName, propertyValue) {
     return result;
 }
 
+// return array as default
 function getFirstOrDefaultFromArray(array, propertyName, propertyValue) {
     for (const item of array) {
         if (getAccessingPathForProp(item, propertyName, propertyValue))
             return item;
     }
 
-    return null;
+    return array;
 }
 
 function getAllFromArray(array, propertyName, propertyValue) {
@@ -131,6 +141,7 @@ function getPropCount(array, propertyName, propertyValue) {
 
 module.exports = {
     isEmptyObject,
+    deletePrimaryKey,
     findArrayFromObject,
     getFirstOrDefaultPropFromObj,
     getFirstOrDefaultFromArray,
