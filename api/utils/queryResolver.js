@@ -12,6 +12,20 @@ function isPaginationQuery(query) {
     );
 }
 
+function extraParamsForPaginationQuery(query) {
+    const extraParams = {};
+    for (const key in query) {
+        // eslint-disable-next-line no-prototype-builtins
+        if (query.hasOwnProperty(key)) {
+            if (!key.includes(constants.paginationString))
+                extraParams[key] = query[key];
+        }
+    }
+
+    if (!helper.isEmptyObject(extraParams)) return extraParams;
+    return null;
+}
+
 function ignorePagination(data) {
     for (const item of constants.ignorePaginationFor) {
         if (stringUtil.stringMatch(Object.keys(data), item)) return true;
@@ -25,8 +39,14 @@ function handlePaginationQuery(
     dataToPaginate,
     specArrToPaginate = null
 ) {
-    if (!dataToPaginate && specArrToPaginate) {
-        return data;
+    if (specArrToPaginate) {
+        // TODO can be reused
+        const startingValue = query.pageNumber * query.pageSize;
+        const endingValue = (query.pageNumber + 1) * query.pageSize;
+
+        const slicedData = specArrToPaginate.slice(startingValue, endingValue);
+
+        return slicedData;
     } else {
         // TODO more logic can be added
         const arrayToPaginate = helper.findArrayFromObject(dataToPaginate);
@@ -69,15 +89,28 @@ function isFilterOrSearchQuery(query, dataToOperate, urlRoute = "") {
     let propertyName = "",
         propertyValue = null;
 
+    // Works if other parameter is specified in constants file
+    if (Object.keys(query).length === 2) {
+        for (const key in query) {
+            if (Object.prototype.hasOwnProperty.call(query, key)) {
+                if (key == constants.paginationArrayIndex) {
+                    // TODO -1 as bucketNumber
+                    // considering dataToOperate as Array here
+                    dataToOperate = dataToOperate[parseInt(query[key])];
+                    delete query[key];
+                }
+            }
+        }
+    }
     // Now works for only one query object parameter
-    if (Object.keys(query).length == 1) {
+    if (Object.keys(query).length === 1) {
         for (const key in query) {
             if (Object.prototype.hasOwnProperty.call(query, key)) {
                 propertyName = key;
                 propertyValue = query[key];
             }
         }
-    }
+    } else return dataToOperate;
 
     propertyName = checkForPrimaryKey(propertyName, urlRoute);
     const newQuery = newQueryObject(query, propertyName);
@@ -173,8 +206,39 @@ function requestResolver(urlRoute, query) {
     if (!query || helper.isEmptyObject(query)) return jsonDB;
 
     if (isPaginationQuery(query)) {
+        const extraQueryParams = extraParamsForPaginationQuery(query);
+        let specificArrayForPaginate = null;
+
+        if (extraQueryParams) {
+            // TODO
+            // I am not searching for the primary key right now!!!
+            // Note I am just excluding the primary key for now as I don't need that
+            // This line should be removed and add some extra logic, based on dataset
+            helper.deletePrimaryKey(extraQueryParams);
+
+            // TODO
+            // Now I am assuming that query params now only have array index, in which
+            // it needs to do the pagination things
+            if (Object.keys(extraQueryParams).length === 1) {
+                for (const key in extraQueryParams) {
+                    // eslint-disable-next-line no-prototype-builtins
+                    if (extraQueryParams.hasOwnProperty(key)) {
+                        const element = extraQueryParams[key];
+                        if (key == constants.paginationArrayIndex)
+                            specificArrayForPaginate =
+                                jsonDB[parseInt(element) + 1];
+                    }
+                }
+            }
+        }
+
         if (ignorePagination(jsonDB)) return jsonDB;
-        else return handlePaginationQuery(query, jsonDB);
+        else
+            return handlePaginationQuery(
+                query,
+                jsonDB,
+                specificArrayForPaginate
+            );
     } else return isFilterOrSearchQuery(query, jsonDB, urlRoute);
 }
 
