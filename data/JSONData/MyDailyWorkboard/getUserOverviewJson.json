@@ -1,1 +1,14 @@
-{"id":26265,"totalOpenAmount":0.0,"totalPastDueAmount":50150.72,"totalPastDueProcessed":0.0,"expectedCallingMinutes":34,"completedCallingMinutes":0,"processedCustomerCount":0,"totalCustomerCount":10,"totalP2PCount":0,"totalP2PAmount":0,"pendingPastDueBucketDocumentCount":[],"pendingPastDueBucketDocumentAmount":[]}
+{
+	"id":26265,
+	"totalOpenAmount":0.0,
+	"totalPastDueAmount":50150.72,
+	"totalPastDueProcessed":0.0,
+	"expectedCallingMinutes":34,
+	"completedCallingMinutes":0,
+	"processedCustomerCount":0,
+	"totalCustomerCount":10,
+	"totalP2PCount":0,
+	"totalP2PAmount":0,
+	"pendingPastDueBucketDocumentCount":[],
+	"pendingPastDueBucketDocumentAmount":[]
+}
