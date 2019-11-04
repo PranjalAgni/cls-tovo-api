@@ -6,12 +6,20 @@
     "call": {
       "id": 368849,
       "customerId": 102581542,
-      "callingNumber": "8325361720",
       "startTime": "2019-07-05T00:00:00",
       "endTime": "2019-07-05T00:01:28",
       "duration": 88,
       "totalOpenAmount": 796.7,
       "totalPastDueAmount": 828.95,
+      "contact": {
+        "id": 18267705,
+        "isPrimary": false,
+        "type": "External",
+        "firstName": "Unnamed",
+        "lastName": "Unnamed",
+        "email": "hrc_277460964406433_102581542@test.com",
+        "role": ""
+      },
       "note": {
         "id": 3663217,
         "customerId": 102581542,
@@ -78,6 +86,18 @@
       "callSummary": "",
       "totalOpenAmount": 796.7,
       "totalPastDueAmount": 828.95,
+      "contact": {
+        "country": "India",
+        "id": 18267705,
+        "isPrimary": false,
+        "type": "External",
+        "firstName": "Unnamed",
+        "lastName": "Unnamed",
+        "email": "hrc_277460964406433_102581542@test.com",
+        "mobileNumber": "8325361512",
+        "phoneNumber": "98754346678",
+        "role": ""
+      },
       "note": {
         "id": 3662526,
         "customerId": 102581542,
@@ -104,6 +124,18 @@
       "duration": 21,
       "totalOpenAmount": 34132.0,
       "totalPastDueAmount": 828.95,
+      "contact": {
+        "country": "New Zealand",
+        "id": 18267705,
+        "isPrimary": false,
+        "type": "External",
+        "firstName": "Unnamed",
+        "lastName": "Unnamed",
+        "email": "hrc_277460964406433_102581542@test.com",
+        "mobileNumber": "8325361512",
+        "phoneNumber": "98754346678",
+        "role": ""
+      },
       "note": {
         "id": 3662238,
         "customerId": 102581542,

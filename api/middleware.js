@@ -62,68 +62,82 @@ const understandRequest = (req, res, next) => {
   } else {
     // For pagination (sdc224)
     switch (pathUptoDo) {
-      case "getUserCallWorkBook": {
-        if (dataHolder.workbookItems) {
-          const startingValue = requestQuery.pageNumber * requestQuery.pageSize;
-          const endingValue =
-            (requestQuery.pageNumber + 1) * requestQuery.pageSize;
+        case "getUserCallWorkBook": {
+            if (dataHolder.workbookItems) {
+                const startingValue =
+                    requestQuery.pageNumber * requestQuery.pageSize;
+                const endingValue =
+                    (requestQuery.pageNumber + 1) * requestQuery.pageSize;
 
-          const slicedData = dataHolder.workbookItems.slice(
-            startingValue,
-            endingValue
-          );
+                const slicedData = dataHolder.workbookItems.slice(
+                    startingValue,
+                    endingValue
+                );
 
-          res.data = {
-            overview: dataHolder.overview,
-            workbookItems: slicedData
-          };
-        } else {
-          // For upcoming Card
-          res.data = dataHolder;
+                res.data = {
+                    overview: dataHolder.overview,
+                    workbookItems: slicedData
+                };
+            } else {
+                // For upcoming Card
+                res.data = dataHolder;
+            }
+            break;
         }
-        break;
-      }
-      case "fetchCustomer": {
-        res.data = dataHolder.find(data => {
-          if (data.id == requestQuery.customerId) {
-            return data;
-          }
-        });
-        break;
-      }
-      case "fetchCommunications": {
-        const query = requestQuery.customerId;
-
-        // Filter values on the above query
-        // Assuming query is id
-        if (dataHolder.length) {
-          let dataResult = [];
-
-          if (dataHolder[0].call || dataHolder[0].correspondence) {
-            // passing all data right now to display for all customers
-            dataResult = dataHolder;
-            // implementation for filtering out data from dataHolder for each customer
-            // const communicationArray = [];
-            // dataHolder.filter(data => {
-            //   if (
-            //     (data.call && data.call.customerId == query) ||
-            //     (data.correspondence && data.correspondence.customerId == query)
-            //   )
-            //     communicationArray.push(data);
-            // });
-
-            // dataResult = communicationArray;
-          }
-          res.data = dataResult;
+        case "fetchCustomer": {
+            res.data = dataHolder.find(data => {
+                if (data.id == requestQuery.customerId) {
+                    return data;
+                }
+            });
+            break;
         }
-        break;
-      }
-      case "getInvoices": {
-        res.data = requestQuery.pageNumber ? dataHolder[parseInt(requestQuery.bucketNumber) + 1].slice(requestQuery.pageNumber * 5, (requestQuery.pageNumber * 5) + 15) : dataHolder[parseInt(requestQuery.bucketNumber) + 1];
-        break;
-      }
-      default:
-        res.data = dataHolder;
+        case "fetchCommunications": {
+            const query = requestQuery.customerId;
+
+            // Filter values on the above query
+            // Assuming query is id
+            if (dataHolder.length) {
+                let dataResult = [];
+
+                if (dataHolder[0].call || dataHolder[0].correspondence) {
+                    // passing all data right now to display for all customers
+                    dataResult = dataHolder;
+                    // implementation for filtering out data from dataHolder for each customer
+                    // const communicationArray = [];
+                    // dataHolder.filter(data => {
+                    //   if (
+                    //     (data.call && data.call.customerId == query) ||
+                    //     (data.correspondence && data.correspondence.customerId == query)
+                    //   )
+                    //     communicationArray.push(data);
+                    // });
+
+                    // dataResult = communicationArray;
+                }
+                res.data = dataResult;
+            }
+            break;
+        }
+        case "getInvoices": {
+            res.data = requestQuery.pageNumber
+                ? dataHolder[parseInt(requestQuery.bucketNumber) + 1].slice(
+                      requestQuery.pageNumber * 5,
+                      requestQuery.pageNumber * 5 + 15
+                  )
+                : dataHolder[parseInt(requestQuery.bucketNumber) + 1];
+            break;
+        }
+        case "getMappedCountries": {
+            res.data = dataHolder.find(data => {
+                if (data.customerId == requestQuery.customerId) {
+                    return data;
+                }
+            });
+            break;
+        }
+        default:
+            res.data = dataHolder;
     }
   }
 
