@@ -3,39 +3,24 @@
         "customerId": 102581542,
         "MappedCountries": [
             {
-                "FinishedCall": {
-                    "countryName": "Australia",
-                    "countryCode": "AU",
-                    "phoneCode": 61
-                }
+                "countryName":"USA",
+                "countryCode":"US / USA /US",
+                "phoneCode":1
             },
             {
-                "FinishedCall": {
-                    "countryName": "India",
-                    "countryCode": "IN",
-                    "phoneCode": 91
-                }
+                "countryName":"India",
+                "countryCode":"IN / IND /IN",
+                "phoneCode":91
             },
             {
-                "FinishedCall": {
-                    "countryName": "Germany",
-                    "countryCode": "DE",
-                    "phoneCode": 49
-                }
+                "countryName":"Germany",
+                "countryCode":"DE / DEU /DE",
+                "phoneCode":49
             },
             {
-                "FinishedCall": {
-                    "countryName": "United Kingdom",
-                    "countryCode": "UK",
-                    "phoneCode": 44
-                }
-            },
-            {
-                "FinishedCall": {
-                    "countryName": "England",
-                    "countryCode": "EN",
-                    "phoneCode": 44
-                }
+                "countryName": "Australia",
+                "countryCode": "AU",
+                "phoneCode": 61
             }
         ]
     },
@@ -43,11 +28,9 @@
         "customerId": 102581544,
         "MappedCountries": [
             {
-                "FinishedCall": {
-                    "countryName": "India",
-                    "countryCode": "IN",
-                    "phoneCode": 91
-                }
+                "countryName":"Germany",
+                "countryCode":"DE / DEU /DE",
+                "phoneCode":49
             }
         ]
     },
@@ -55,18 +38,9 @@
         "customerId": 102581545,
         "MappedCountries": [
             {
-                "FinishedCall": {
-                    "countryName": "Germany",
-                    "countryCode": "DE",
-                    "phoneCode": 49
-                }
-            },
-            {
-                "FinishedCall": {
-                    "countryName": "India",
-                    "countryCode": "IN",
-                    "phoneCode": 91
-                }
+                "countryName":"England",
+                "countryCode":"EN / GBR",
+                "phoneCode":44    
             }
         ]
     },
@@ -74,11 +48,24 @@
         "customerId": 102581546,
         "MappedCountries": [
             {
-                "FinishedCall": {
-                    "countryName": "Germany",
-                    "countryCode": "DE",
-                    "phoneCode": 49
-                }
+                "countryName":"Canada",
+                "countryCode":"CA / CAN",
+                "phoneCode":1
+            },
+            {
+                "countryName":"India",
+                "countryCode":"IN / IND /IN",
+                "phoneCode":91
+            },
+            {
+                "countryName":"United Kingdom",
+                "countryCode":"UK",
+                "phoneCode":44
+            },
+            {
+                "countryName": "New Zealand",
+                "countryCode": "NZ",
+                "phoneCode": 64
             }
         ]
     },
@@ -86,11 +73,24 @@
         "customerId": 102581548,
         "MappedCountries": [
             {
-                "FinishedCall": {
-                    "countryName": "India",
-                    "countryCode": "IN",
-                    "phoneCode": 91
-                }
+                "countryName":"USA",
+                "countryCode":"US / USA /US",
+                "phoneCode":1
+            },
+            {
+                "countryName":"India",
+                "countryCode":"IN / IND /IN",
+                "phoneCode":91
+            },
+            {
+                "countryName":"Germany",
+                "countryCode":"DE / DEU /DE",
+                "phoneCode":49
+            },
+            {
+                "countryName": "Australia",
+                "countryCode": "AU",
+                "phoneCode": 61
             }
         ]
     },
@@ -98,11 +98,24 @@
         "customerId": 102581549,
         "MappedCountries": [
             {
-                "FinishedCall": {
-                    "countryName": "Germany",
-                    "countryCode": "DE",
-                    "phoneCode": 49
-                }
+                "countryName":"USA",
+                "countryCode":"US / USA /US",
+                "phoneCode":1
+            },
+            {
+                "countryName":"India",
+                "countryCode":"IN / IND /IN",
+                "phoneCode":91
+            },
+            {
+                "countryName":"Germany",
+                "countryCode":"DE / DEU /DE",
+                "phoneCode":49
+            },
+            {
+                "countryName": "Australia",
+                "countryCode": "AU",
+                "phoneCode": 61
             }
         ]
     },
@@ -110,11 +123,24 @@
         "customerId": 102581550,
         "MappedCountries": [
             {
-                "FinishedCall": {
-                    "countryName": "Germany",
-                    "countryCode": "DE",
-                    "phoneCode": 49
-                }
+                "countryName":"USA",
+                "countryCode":"US / USA /US",
+                "phoneCode":1
+            },
+            {
+                "countryName":"India",
+                "countryCode":"IN / IND /IN",
+                "phoneCode":91
+            },
+            {
+                "countryName":"Germany",
+                "countryCode":"DE / DEU /DE",
+                "phoneCode":49
+            },
+            {
+                "countryName": "Australia",
+                "countryCode": "AU",
+                "phoneCode": 61
             }
         ]
     },
@@ -122,11 +148,24 @@
         "customerId": 102581552,
         "MappedCountries": [
             {
-                "FinishedCall": {
-                    "countryName": "Germany",
-                    "countryCode": "DE",
-                    "phoneCode": 49
-                }
+                "countryName":"USA",
+                "countryCode":"US / USA /US",
+                "phoneCode":1
+            },
+            {
+                "countryName":"India",
+                "countryCode":"IN / IND /IN",
+                "phoneCode":91
+            },
+            {
+                "countryName":"Germany",
+                "countryCode":"DE / DEU /DE",
+                "phoneCode":49
+            },
+            {
+                "countryName": "Australia",
+                "countryCode": "AU",
+                "phoneCode": 61
             }
         ]
     },
@@ -134,46 +173,24 @@
         "customerId": 102581553,
         "MappedCountries": [
             {
-                "FinishedCall": {
-                    "countryName": "USA",
-                    "countryCode": "US",
-                    "phoneCode": 1
-                }
+                "countryName":"USA",
+                "countryCode":"US / USA /US",
+                "phoneCode":1
             },
             {
-                "FinishedCall": {
-                    "countryName": "India",
-                    "countryCode": "IN",
-                    "phoneCode": 91
-                }
+                "countryName":"India",
+                "countryCode":"IN / IND /IN",
+                "phoneCode":91
             },
             {
-                "FinishedCall": {
-                    "countryName": "Germany",
-                    "countryCode": "DE",
-                    "phoneCode": 49
-                }
+                "countryName":"Germany",
+                "countryCode":"DE / DEU /DE",
+                "phoneCode":49
             },
             {
-                "FinishedCall": {
-                    "countryName": "Australia",
-                    "countryCode": "AU",
-                    "phoneCode": 61
-                }
-            },
-            {
-                "FinishedCall": {
-                    "countryName": "United Kingdom",
-                    "countryCode": "UK",
-                    "phoneCode": 44
-                }
-            },
-            {
-                "FinishedCall": {
-                    "countryName": "Canada",
-                    "countryCode": "CA",
-                    "phoneCode": 1
-                }
+                "countryName": "Australia",
+                "countryCode": "AU",
+                "phoneCode": 61
             }
         ]
     },
@@ -181,11 +198,24 @@
         "customerId": 102581555,
         "MappedCountries": [
             {
-                "FinishedCall": {
-                    "countryName": "Germany",
-                    "countryCode": "DE",
-                    "phoneCode": 49
-                }
+                "countryName":"USA",
+                "countryCode":"US / USA /US",
+                "phoneCode":1
+            },
+            {
+                "countryName":"India",
+                "countryCode":"IN / IND /IN",
+                "phoneCode":91
+            },
+            {
+                "countryName":"Germany",
+                "countryCode":"DE / DEU /DE",
+                "phoneCode":49
+            },
+            {
+                "countryName": "Australia",
+                "countryCode": "AU",
+                "phoneCode": 61
             }
         ]
     }

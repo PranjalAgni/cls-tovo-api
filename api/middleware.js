@@ -131,9 +131,9 @@ const understandRequest = (req, res, next) => {
         case "getMappedCountries": {
             res.data = dataHolder.find(data => {
                 if (data.customerId == requestQuery.customerId) {
-                    return data;
+                    return data.MappedCountries;
                 }
-            });
+            }).MappedCountries;
             break;
         }
         default:

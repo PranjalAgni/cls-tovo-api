@@ -81,7 +81,6 @@
         "id": 18267705,
         "isPrimary": false,
         "type": "External",
-        "country": "India",
         "firstName": "Unnamed",
         "lastName": "Unnamed",
         "email": "hrc_277460964406433_102581542@test.com"
@@ -90,7 +89,6 @@
         "id": 18267790,
         "isPrimary": false,
         "type": "External",
-        "country": "India",
         "firstName": "Unnamed",
         "lastName": "Unnamed",
         "email": "hrc_1628660070492858_102581542@test.com"
@@ -99,7 +97,6 @@
         "id": 18267851,
         "isPrimary": false,
         "type": "External",
-        "country": "England",
         "firstName": "Test",
         "lastName": "Test",
         "email": "praveen.tiwary@highradius.com",
@@ -109,8 +106,6 @@
         "id": 18267460,
         "isPrimary": true,
         "type": "External",
-        "firstName": "John",
-        "lastName": "William",
         "email": "abhinav.pachauri@highradius.com",
         "phoneNumber": "8325361720"
       }
