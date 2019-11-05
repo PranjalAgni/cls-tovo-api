@@ -118,27 +118,35 @@
     "notes": [],
     "paymentCommitments": [
       {
-        "id": 108499,
-        "type": "Open",
-        "customerId": 102581542,
+        "id": 123,
+        "type": "Broken",
+        "customerId": 1234,
         "pcItems": [],
-        "committedAmount": 7000,
+        "committedAmount": 200000,
         "committedDate": {
-          "date": "2019-09-09",
+          "date": {
+            "year": 2019,
+            "month": 10,
+            "day": 21
+          },
           "time": {
-            "hour": 0,
-            "minute": 0,
-            "second": 0,
-            "nano": 0
+            "hour": 18,
+            "minute": 44,
+            "second": 3,
+            "nano": 350000000
           }
         },
         "committedOn": {
-          "date": "2019-02-05",
+          "date": {
+            "year": 2019,
+            "month": 10,
+            "day": 21
+          },
           "time": {
-            "hour": 0,
-            "minute": 0,
-            "second": 0,
-            "nano": 0
+            "hour": 18,
+            "minute": 44,
+            "second": 4,
+            "nano": 147000000
           }
         },
         "committedBy": {
@@ -162,27 +170,87 @@
         "currency": "$"
       },
       {
-        "id": 109100,
-        "type": "Open",
-        "customerId": 102581542,
+        "id": 123,
+        "type": "Broken",
+        "customerId": 1234,
         "pcItems": [],
-        "committedAmount": 1000,
+        "committedAmount": 200000,
         "committedDate": {
-          "date": "2019-05-10",
+          "date": {
+            "year": 2019,
+            "month": 10,
+            "day": 21
+          },
           "time": {
-            "hour": 0,
-            "minute": 0,
-            "second": 0,
-            "nano": 0
+            "hour": 18,
+            "minute": 44,
+            "second": 3,
+            "nano": 350000000
           }
         },
         "committedOn": {
-          "date": "2019-05-10",
+          "date": {
+            "year": 2019,
+            "month": 10,
+            "day": 21
+          },
           "time": {
-            "hour": 0,
-            "minute": 0,
-            "second": 0,
-            "nano": 0
+            "hour": 18,
+            "minute": 44,
+            "second": 4,
+            "nano": 147000000
+          }
+        },
+        "committedBy": {
+          "isPrimary": false,
+          "type": "",
+          "role": "",
+          "title": "",
+          "firstName": "",
+          "lastName": "",
+          "email": "",
+          "phoneNumber": "",
+          "mobileNumber": "",
+          "faxNumber": "",
+          "address": "",
+          "city": "",
+          "state": "",
+          "country": "",
+          "zip": "",
+          "extension": ""
+        },
+        "currency": "$"
+      },
+      {
+        "id": 123,
+        "type": "Open",
+        "customerId": 1234,
+        "pcItems": [],
+        "committedAmount": 20,
+        "committedDate": {
+          "date": {
+            "year": 2019,
+            "month": 10,
+            "day": 21
+          },
+          "time": {
+            "hour": 18,
+            "minute": 44,
+            "second": 3,
+            "nano": 350000000
+          }
+        },
+        "committedOn": {
+          "date": {
+            "year": 2019,
+            "month": 10,
+            "day": 21
+          },
+          "time": {
+            "hour": 18,
+            "minute": 44,
+            "second": 4,
+            "nano": 147000000
           }
         },
         "committedBy": {
@@ -677,7 +745,7 @@
       },
       {
         "id": 109100,
-        "type": "Open",
+        "type": "Broken",
         "customerId": 102581542,
         "pcItems": [],
         "committedAmount": 1000,
