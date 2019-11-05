@@ -1,0 +1,161 @@
+{
+  "Payments":[ 
+   {    
+          "id": 79571414,
+          "customerId": 102581542,
+          "documentNumber": "814241117",
+          "paymentAmount": " ",
+          "currency": "$",
+          "paymentDate": "2019-11-04",
+          "paymentMethod":"Wire Transfer",
+          "chequeNumber":"none",
+          "chequeDate":"2019-10-14",
+          "checkAmount":122,
+          "bank":"ABC",
+          "title":"Payment",
+          "description":"Payment made by Customer"
+
+        },
+        {
+          "id": 79563138,
+          "customerId": 102581542,
+          "documentNumber": "",
+          "paymentAmount": 12000000,
+          "currency": "$",
+          "paymentDate": "2019-11-03",
+          "paymentMethod":"Cheque",
+          "chequeNumber":"524122",
+          "chequeDate":"2017-01-26",
+          "checkAmount":120,
+          "bank":"ABC",
+          "title":"Payment",
+          "description":"Payment made by Customer"
+        },
+        {
+          "id": 79550776,
+          "customerId": 102581542,
+          "documentNumber": "",
+          "paymentAmount": 491.2,
+          "currency": "$",
+          "paymentDate": "2017-01-16",
+          "paymentMethod":"Wire Transfer",
+          "chequeNumber":"none",
+          "chequeDate":"2017-01-12" ,
+          "checkAmount":333,
+          "bank":"ABC",
+          "title":"Payment",
+          "description":"Payment made by Customer"
+        },
+        {
+          "id": 79549606,
+          "customerId": 102581542,
+          "documentNumber": "8142411170",
+          "paymentAmount": 491.75,
+          "currency": "$",
+          "paymentDate": "2017-01-05",
+          "paymentMethod":"Cheque",
+          "chequeNumber":"24323",
+          "chequeDate":"2017-01-05",
+          
+          "checkAmount":100,
+          "bank":"ABC",
+          "title":"Payment",
+          "description":"Payment made by Customer"
+        },
+        {
+          "id": 79549605,
+          "customerId": 102581542,
+          "documentNumber": "8142419449",
+          "paymentAmount": 702.5,
+          "currency": "$",
+          "paymentDate": "2017-01-05",
+          "paymentMethod":"Wire Transfer",
+          "chequeNumber":"none",
+          "chequeDate":"none",
+          "checkAmount":120,
+          "bank":"ABC",
+          "title":"Payment",
+          "description":"Payment made by Customer"
+        },
+        {
+        
+          "id": 79571414,
+          "customerId": 102581542,
+          "documentNumber": "8142411170",
+          "paymentAmount": 491.75,
+          "currency": "$",
+          "paymentDate": "2017-02-02",
+          "paymentMethod":"Wire Transfer",
+          "chequeNumber":"none",
+          "chequeDate":"none",
+          "checkAmount":122,
+          "bank":"ABC",
+          "title":"Payment",
+          "description":"Payment made by Customer"
+
+        },
+        {
+          "id": 79563138,
+          "customerId": 102581542,
+          "documentNumber": "",
+          "paymentAmount": 491.75,
+          "currency": "$",
+          "paymentDate": "2017-01-26",
+          "paymentMethod":"Cheque",
+          "chequeNumber":"524122",
+          "chequeDate":"2017-01-26",
+          "checkAmount":120,
+          "bank":"ABC",
+          "title":"Payment",
+          "description":"Payment made by Customer"
+        },
+        {
+          "id": 79550776,
+          "customerId": 102581542,
+          "documentNumber": "8142425388",
+          "paymentAmount": 351.25,
+          "currency": "$",
+          "paymentDate": "2017-01-12",
+          "paymentMethod":"Wire Transfer",
+          "chequeNumber":"none",
+          "chequeDate":"none",
+          "checkAmount":333,
+          "bank":"ABC",
+          "title":"Payment",
+          "description":"Payment made by Customer"
+        },
+        {
+          "id": 79549606,
+          "customerId": 102581542,
+          "documentNumber": "null",
+          "paymentAmount": 562,
+          "currency": "$",
+          "paymentDate": "2017-01-05",
+          "paymentMethod":"Cheque",
+          "chequeNumber":"24323",
+          "chequeDate":"2017-01-05",
+          
+          "checkAmount":100,
+          "bank":"ABC",
+          "title":"Payment",
+          "description":"Payment made by Customer"
+        },
+        {
+          "id": 79549605,
+          "customerId": 102581542,
+          "documentNumber": "8142419449",
+          "paymentAmount": 702.5,
+          "currency": "$",
+          "paymentDate": "2017-01-05",
+          "paymentMethod":"Wire Transfer",
+          "chequeNumber":"none",
+          "chequeDate":"none",
+          "checkAmount":120,
+          "bank":"ABC",
+          "title":"Payment",
+          "description":"Payment made by Customer"
+        }
+      ]
+    }
+      
+    
