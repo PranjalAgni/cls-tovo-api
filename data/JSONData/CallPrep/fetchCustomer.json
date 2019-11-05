@@ -211,7 +211,7 @@
         "id": 79571414,
         "customerId": 102581542,
         "documentNumber": "8142411170",
-        "paymentAmount": 491.75,
+        "paymentAmount": [491.75,492.2,263.3,491.75,492.2,263.3],
         "currency": "$",
         "paymentDate": "2017-02-02"
       },
@@ -467,8 +467,8 @@
       {
         "id": 79571414,
         "customerId": 102581542,
-        "documentNumber": "8142411170",
-        "paymentAmount": 491.75,
+        "documentNumber": ["8142411170","123761328","2375123851","8142411170","123761328","2375123851"],
+        "paymentAmount": [491.75,492.2,263.3,491.75,492.2,263.3],
         "currency": "$",
         "paymentDate": "2017-02-02"
       },
