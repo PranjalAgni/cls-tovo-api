@@ -92,6 +92,14 @@ const understandRequest = (req, res, next) => {
             });
             break;
         }
+        case "fetchBrokenP2PDetailsForCustomer": {
+          res.data = dataHolder.filter(data => {
+            if (data.id == requestQuery.customerId) {
+              return data;
+            }
+          });
+          break;
+        }
         case "fetchCommunications": {
             const query = requestQuery.customerId;
 
