@@ -92,6 +92,14 @@ const understandRequest = (req, res, next) => {
             });
             break;
         }
+        case "fetchBrokenP2PDetailsForCustomer": {
+          res.data = dataHolder.filter(data => {
+            if (data.id == requestQuery.customerId) {
+              return data;
+            }
+          });
+          break;
+        }
         case "fetchCommunications": {
             const query = requestQuery.customerId;
 
@@ -131,9 +139,9 @@ const understandRequest = (req, res, next) => {
         case "getMappedCountries": {
             res.data = dataHolder.find(data => {
                 if (data.customerId == requestQuery.customerId) {
-                    return data;
+                    return data.MappedCountries;
                 }
-            });
+            }).MappedCountries;
             break;
         }
         default:
