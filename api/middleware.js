@@ -93,11 +93,15 @@ const understandRequest = (req, res, next) => {
             break;
         }
         case "fetchBrokenP2PDetailsForCustomer": {
-          res.data = dataHolder.filter(data => {
+          const filteredData = dataHolder.filter(data => {
             if (data.id == requestQuery.customerId) {
-              return data;
+              return data;             
             }
           });
+          var pagnum,pagesiz,start,end;
+          start =  parseInt(requestQuery.pageNumber * requestQuery.pageSize);
+          end =  parseInt((requestQuery.pageNumber + 1) * requestQuery.pageSize);
+          res.data = filteredData.slice(start, end);
           break;
         }
         case "fetchCommunications": {

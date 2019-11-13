@@ -4,12 +4,1117 @@
     "type": "Broken",
     "customerId": 1234,
     "pcItems": [
+      {},
+      {
+        "cmsDocHeaderId": 234,
+        "customerId": 0,
+        "committedAmount": 0,
+        "currency": "",
+        "documentNumber": "         dg inv cvghi      77!//?????<    >",
+        "currentInvoiceAmount": 234532
+      },
       {
         "cmsDocHeaderId": 234,
         "customerId": 0,
         "committedAmount": 0,
         "currency": "",
         "documentNumber": "910",
+        "currentInvoiceAmount": 234532
+      }
+    ],
+    "committedAmount": 9876,
+    "committedDate": {
+      "date": {
+        "year": 2019,
+        "month": 9,
+        "day": 29
+      },
+      "time": {
+        "hour": 18,
+        "minute": 44,
+        "second": 3,
+        "nano": 350000000
+      }
+    },
+    "committedOn": {
+      "date": {
+        "year": 2019,
+        "month": 10,
+        "day": 21
+      },
+      "time": {
+        "hour": 18,
+        "minute": 44,
+        "second": 4,
+        "nano": 147000000
+      }
+    },
+    "committedBy": {
+      "isPrimary": false,
+      "type": "",
+      "role": "",
+      "title": "",
+      "firstName": "",
+      "lastName": "",
+      "email": "",
+      "phoneNumber": "",
+      "mobileNumber": "",
+      "faxNumber": "",
+      "address": "",
+      "city": "",
+      "state": "",
+      "country": "",
+      "zip": "",
+      "extension": ""
+    },
+    "currency": "$"
+  },
+  {
+    "id": 102581542,
+    "type": "Broken",
+    "customerId": 1234,
+    "pcItems": [
+      {
+        "cmsDocHeaderId": 234,
+        "customerId": 0,
+        "committedAmount": 0,
+        "currency": "",
+        "documentNumber": "         dg inv cvghi      77!//?????<    >",
+        "currentInvoiceAmount": 234532
+      },
+      {
+        "cmsDocHeaderId": 234,
+        "customerId": 0,
+        "committedAmount": 0,
+        "currency": "",
+        "documentNumber": "910",
+        "currentInvoiceAmount": 234532
+      }
+    ],
+    "committedAmount": 9876,
+    "committedDate": {
+      "date": {
+        "year": 2019,
+        "month": 9,
+        "day": 29
+      },
+      "time": {
+        "hour": 18,
+        "minute": 44,
+        "second": 3,
+        "nano": 350000000
+      }
+    },
+    "committedOn": {
+      "date": {
+        "year": 2019,
+        "month": 10,
+        "day": 21
+      },
+      "time": {
+        "hour": 18,
+        "minute": 44,
+        "second": 4,
+        "nano": 147000000
+      }
+    },
+    "committedBy": {
+      "isPrimary": false,
+      "type": "",
+      "role": "",
+      "title": "",
+      "firstName": "",
+      "lastName": "",
+      "email": "",
+      "phoneNumber": "",
+      "mobileNumber": "",
+      "faxNumber": "",
+      "address": "",
+      "city": "",
+      "state": "",
+      "country": "",
+      "zip": "",
+      "extension": ""
+    },
+    "currency": "$"
+  },
+  {
+    "id": 102581542,
+    "type": "Broken",
+    "customerId": 1234,
+    "pcItems": [
+      {
+        "cmsDocHeaderId": 234,
+        "customerId": 0,
+        "committedAmount": 0,
+        "currency": "",
+        "documentNumber": "         dg inv cvghi      77!//?????<    >",
+        "currentInvoiceAmount": 234532
+      },
+      {
+        "cmsDocHeaderId": 234,
+        "customerId": 0,
+        "committedAmount": 0,
+        "currency": "",
+        "documentNumber": "910",
+        "currentInvoiceAmount": 234532
+      }
+    ],
+    "committedAmount": 9876,
+    "committedDate": {
+      "date": {
+        "year": 2019,
+        "month": 9,
+        "day": 29
+      },
+      "time": {
+        "hour": 18,
+        "minute": 44,
+        "second": 3,
+        "nano": 350000000
+      }
+    },
+    "committedOn": {
+      "date": {
+        "year": 2019,
+        "month": 10,
+        "day": 21
+      },
+      "time": {
+        "hour": 18,
+        "minute": 44,
+        "second": 4,
+        "nano": 147000000
+      }
+    },
+    "committedBy": {
+      "isPrimary": false,
+      "type": "",
+      "role": "",
+      "title": "",
+      "firstName": "",
+      "lastName": "",
+      "email": "",
+      "phoneNumber": "",
+      "mobileNumber": "",
+      "faxNumber": "",
+      "address": "",
+      "city": "",
+      "state": "",
+      "country": "",
+      "zip": "",
+      "extension": ""
+    },
+    "currency": "$"
+  },
+  {
+    "id": 102581542,
+    "type": "Broken",
+    "customerId": 1234,
+    "pcItems": [
+      {
+        "cmsDocHeaderId": 234,
+        "customerId": 0,
+        "committedAmount": 0,
+        "currency": "",
+        "documentNumber": "         dg inv cvghi      77!//?????<    >",
+        "currentInvoiceAmount": 234532
+      },
+      {
+        "cmsDocHeaderId": 234,
+        "customerId": 0,
+        "committedAmount": 0,
+        "currency": "",
+        "documentNumber": "910",
+        "currentInvoiceAmount": 234532
+      }
+    ],
+    "committedAmount": 9876,
+    "committedDate": {
+      "date": {
+        "year": 2019,
+        "month": 9,
+        "day": 29
+      },
+      "time": {
+        "hour": 18,
+        "minute": 44,
+        "second": 3,
+        "nano": 350000000
+      }
+    },
+    "committedOn": {
+      "date": {
+        "year": 2019,
+        "month": 10,
+        "day": 21
+      },
+      "time": {
+        "hour": 18,
+        "minute": 44,
+        "second": 4,
+        "nano": 147000000
+      }
+    },
+    "committedBy": {
+      "isPrimary": false,
+      "type": "",
+      "role": "",
+      "title": "",
+      "firstName": "",
+      "lastName": "",
+      "email": "",
+      "phoneNumber": "",
+      "mobileNumber": "",
+      "faxNumber": "",
+      "address": "",
+      "city": "",
+      "state": "",
+      "country": "",
+      "zip": "",
+      "extension": ""
+    },
+    "currency": "$"
+  },
+  {
+    "id": 102581542,
+    "type": "Broken",
+    "customerId": 1234,
+    "pcItems": [
+      {
+        "cmsDocHeaderId": 234,
+        "customerId": 0,
+        "committedAmount": 0,
+        "currency": "",
+        "documentNumber": "         dg inv cvghi      77!//?????<    >",
+        "currentInvoiceAmount": 234532
+      },
+      {
+        "cmsDocHeaderId": 234,
+        "customerId": 0,
+        "committedAmount": 0,
+        "currency": "",
+        "documentNumber": "910",
+        "currentInvoiceAmount": 234532
+      }
+    ],
+    "committedAmount": 9876,
+    "committedDate": {
+      "date": {
+        "year": 2019,
+        "month": 9,
+        "day": 29
+      },
+      "time": {
+        "hour": 18,
+        "minute": 44,
+        "second": 3,
+        "nano": 350000000
+      }
+    },
+    "committedOn": {
+      "date": {
+        "year": 2019,
+        "month": 10,
+        "day": 21
+      },
+      "time": {
+        "hour": 18,
+        "minute": 44,
+        "second": 4,
+        "nano": 147000000
+      }
+    },
+    "committedBy": {
+      "isPrimary": false,
+      "type": "",
+      "role": "",
+      "title": "",
+      "firstName": "",
+      "lastName": "",
+      "email": "",
+      "phoneNumber": "",
+      "mobileNumber": "",
+      "faxNumber": "",
+      "address": "",
+      "city": "",
+      "state": "",
+      "country": "",
+      "zip": "",
+      "extension": ""
+    },
+    "currency": "$"
+  },
+  {
+    "id": 102581542,
+    "type": "Broken",
+    "customerId": 1234,
+    "pcItems": [
+      {
+        "cmsDocHeaderId": 234,
+        "customerId": 0,
+        "committedAmount": 0,
+        "currency": "",
+        "documentNumber": "         dg inv cvghi      77!//?????<    >",
+        "currentInvoiceAmount": 234532
+      },
+      {
+        "cmsDocHeaderId": 234,
+        "customerId": 0,
+        "committedAmount": 0,
+        "currency": "",
+        "documentNumber": "910",
+        "currentInvoiceAmount": 234532
+      }
+    ],
+    "committedAmount": 9876,
+    "committedDate": {
+      "date": {
+        "year": 2019,
+        "month": 9,
+        "day": 29
+      },
+      "time": {
+        "hour": 18,
+        "minute": 44,
+        "second": 3,
+        "nano": 350000000
+      }
+    },
+    "committedOn": {
+      "date": {
+        "year": 2019,
+        "month": 10,
+        "day": 21
+      },
+      "time": {
+        "hour": 18,
+        "minute": 44,
+        "second": 4,
+        "nano": 147000000
+      }
+    },
+    "committedBy": {
+      "isPrimary": false,
+      "type": "",
+      "role": "",
+      "title": "",
+      "firstName": "",
+      "lastName": "",
+      "email": "",
+      "phoneNumber": "",
+      "mobileNumber": "",
+      "faxNumber": "",
+      "address": "",
+      "city": "",
+      "state": "",
+      "country": "",
+      "zip": "",
+      "extension": ""
+    },
+    "currency": "$"
+  },
+  {
+    "id": 102581542,
+    "type": "Broken",
+    "customerId": 1234,
+    "pcItems": [
+      {
+        "cmsDocHeaderId": 234,
+        "customerId": 0,
+        "committedAmount": 0,
+        "currency": "",
+        "documentNumber": "         dg inv cvghi      77!//?????<    >",
+        "currentInvoiceAmount": 234532
+      },
+      {
+        "cmsDocHeaderId": 234,
+        "customerId": 0,
+        "committedAmount": 0,
+        "currency": "",
+        "documentNumber": "910",
+        "currentInvoiceAmount": 234532
+      }
+    ],
+    "committedAmount": 9876,
+    "committedDate": {
+      "date": {
+        "year": 2019,
+        "month": 9,
+        "day": 29
+      },
+      "time": {
+        "hour": 18,
+        "minute": 44,
+        "second": 3,
+        "nano": 350000000
+      }
+    },
+    "committedOn": {
+      "date": {
+        "year": 2019,
+        "month": 10,
+        "day": 21
+      },
+      "time": {
+        "hour": 18,
+        "minute": 44,
+        "second": 4,
+        "nano": 147000000
+      }
+    },
+    "committedBy": {
+      "isPrimary": false,
+      "type": "",
+      "role": "",
+      "title": "",
+      "firstName": "",
+      "lastName": "",
+      "email": "",
+      "phoneNumber": "",
+      "mobileNumber": "",
+      "faxNumber": "",
+      "address": "",
+      "city": "",
+      "state": "",
+      "country": "",
+      "zip": "",
+      "extension": ""
+    },
+    "currency": "$"
+  },
+  {
+    "id": 102581542,
+    "type": "Broken",
+    "customerId": 1234,
+    "pcItems": [
+      {
+        "cmsDocHeaderId": 234,
+        "customerId": 0,
+        "committedAmount": 0,
+        "currency": "",
+        "documentNumber": "         dg inv cvghi      77!//?????<    >",
+        "currentInvoiceAmount": 234532
+      },
+      {
+        "cmsDocHeaderId": 234,
+        "customerId": 0,
+        "committedAmount": 0,
+        "currency": "",
+        "documentNumber": "910",
+        "currentInvoiceAmount": 234532
+      }
+    ],
+    "committedAmount": 9876,
+    "committedDate": {
+      "date": {
+        "year": 2019,
+        "month": 9,
+        "day": 29
+      },
+      "time": {
+        "hour": 18,
+        "minute": 44,
+        "second": 3,
+        "nano": 350000000
+      }
+    },
+    "committedOn": {
+      "date": {
+        "year": 2019,
+        "month": 10,
+        "day": 21
+      },
+      "time": {
+        "hour": 18,
+        "minute": 44,
+        "second": 4,
+        "nano": 147000000
+      }
+    },
+    "committedBy": {
+      "isPrimary": false,
+      "type": "",
+      "role": "",
+      "title": "",
+      "firstName": "",
+      "lastName": "",
+      "email": "",
+      "phoneNumber": "",
+      "mobileNumber": "",
+      "faxNumber": "",
+      "address": "",
+      "city": "",
+      "state": "",
+      "country": "",
+      "zip": "",
+      "extension": ""
+    },
+    "currency": "$"
+  },
+  {
+    "id": 102581542,
+    "type": "Broken",
+    "customerId": 1234,
+    "pcItems": [
+      {
+        "cmsDocHeaderId": 234,
+        "customerId": 0,
+        "committedAmount": 0,
+        "currency": "",
+        "documentNumber": "         dg inv cvghi      77!//?????<    >",
+        "currentInvoiceAmount": 234532
+      },
+      {
+        "cmsDocHeaderId": 234,
+        "customerId": 0,
+        "committedAmount": 0,
+        "currency": "",
+        "documentNumber": "910",
+        "currentInvoiceAmount": 234532
+      }
+    ],
+    "committedAmount": 9876,
+    "committedDate": {
+      "date": {
+        "year": 2019,
+        "month": 9,
+        "day": 29
+      },
+      "time": {
+        "hour": 18,
+        "minute": 44,
+        "second": 3,
+        "nano": 350000000
+      }
+    },
+    "committedOn": {
+      "date": {
+        "year": 2019,
+        "month": 10,
+        "day": 21
+      },
+      "time": {
+        "hour": 18,
+        "minute": 44,
+        "second": 4,
+        "nano": 147000000
+      }
+    },
+    "committedBy": {
+      "isPrimary": false,
+      "type": "",
+      "role": "",
+      "title": "",
+      "firstName": "",
+      "lastName": "",
+      "email": "",
+      "phoneNumber": "",
+      "mobileNumber": "",
+      "faxNumber": "",
+      "address": "",
+      "city": "",
+      "state": "",
+      "country": "",
+      "zip": "",
+      "extension": ""
+    },
+    "currency": "$"
+  },
+  {
+    "id": 102581542,
+    "type": "Broken",
+    "customerId": 3456787654,
+    "pcItems": [
+      {
+        "cmsDocHeaderId": 234,
+        "customerId": 0,
+        "committedAmount": 0,
+        "currency": "",
+        "documentNumber": "         dg inv cvghi      77!//?????<    >",
+        "currentInvoiceAmount": 234532
+      },
+      {
+        "cmsDocHeaderId": 234,
+        "customerId": 0,
+        "committedAmount": 0,
+        "currency": "",
+        "documentNumber": "910",
+        "currentInvoiceAmount": 234532
+      }
+    ],
+    "committedAmount": 9876,
+    "committedDate": {
+      "date": {
+        "year": 2019,
+        "month": 9,
+        "day": 29
+      },
+      "time": {
+        "hour": 18,
+        "minute": 44,
+        "second": 3,
+        "nano": 350000000
+      }
+    },
+    "committedOn": {
+      "date": {
+        "year": 2019,
+        "month": 10,
+        "day": 21
+      },
+      "time": {
+        "hour": 18,
+        "minute": 44,
+        "second": 4,
+        "nano": 147000000
+      }
+    },
+    "committedBy": {
+      "isPrimary": false,
+      "type": "",
+      "role": "",
+      "title": "",
+      "firstName": "",
+      "lastName": "",
+      "email": "",
+      "phoneNumber": "",
+      "mobileNumber": "",
+      "faxNumber": "",
+      "address": "",
+      "city": "",
+      "state": "",
+      "country": "",
+      "zip": "",
+      "extension": ""
+    },
+    "currency": "$"
+  },
+  {
+    "id": 102581542,
+    "type": "Broken",
+    "customerId": 8252695868,
+    "pcItems": [
+      {
+        "cmsDocHeaderId": 234,
+        "customerId": 0,
+        "committedAmount": 0,
+        "currency": "",
+        "documentNumber": "         dg inv cvghi      77!//?????<    >",
+        "currentInvoiceAmount": 234532
+      },
+      {
+        "cmsDocHeaderId": 234,
+        "customerId": 0,
+        "committedAmount": 0,
+        "currency": "",
+        "documentNumber": "910",
+        "currentInvoiceAmount": 234532
+      }
+    ],
+    "committedAmount": 9876,
+    "committedDate": {
+      "date": {
+        "year": 2019,
+        "month": 9,
+        "day": 29
+      },
+      "time": {
+        "hour": 18,
+        "minute": 44,
+        "second": 3,
+        "nano": 350000000
+      }
+    },
+    "committedOn": {
+      "date": {
+        "year": 2019,
+        "month": 10,
+        "day": 21
+      },
+      "time": {
+        "hour": 18,
+        "minute": 44,
+        "second": 4,
+        "nano": 147000000
+      }
+    },
+    "committedBy": {
+      "isPrimary": false,
+      "type": "",
+      "role": "",
+      "title": "",
+      "firstName": "",
+      "lastName": "",
+      "email": "",
+      "phoneNumber": "",
+      "mobileNumber": "",
+      "faxNumber": "",
+      "address": "",
+      "city": "",
+      "state": "",
+      "country": "",
+      "zip": "",
+      "extension": ""
+    },
+    "currency": "$"
+  },
+  {
+    "id": 102581542,
+    "type": "Broken",
+    "customerId": 1234,
+    "pcItems": [
+      {
+        "cmsDocHeaderId": 234,
+        "customerId": 0,
+        "committedAmount": 0,
+        "currency": "",
+        "documentNumber": "         dg inv cvghi      77!//?????<    >",
+        "currentInvoiceAmount": 234532
+      },
+      {
+        "cmsDocHeaderId": 234,
+        "customerId": 0,
+        "committedAmount": 0,
+        "currency": "",
+        "documentNumber": "910",
+        "currentInvoiceAmount": 234532
+      }
+    ],
+    "committedAmount": 9876,
+    "committedDate": {
+      "date": {
+        "year": 2019,
+        "month": 9,
+        "day": 29
+      },
+      "time": {
+        "hour": 18,
+        "minute": 44,
+        "second": 3,
+        "nano": 350000000
+      }
+    },
+    "committedOn": {
+      "date": {
+        "year": 2019,
+        "month": 10,
+        "day": 21
+      },
+      "time": {
+        "hour": 18,
+        "minute": 44,
+        "second": 4,
+        "nano": 147000000
+      }
+    },
+    "committedBy": {
+      "isPrimary": false,
+      "type": "",
+      "role": "",
+      "title": "",
+      "firstName": "",
+      "lastName": "",
+      "email": "",
+      "phoneNumber": "",
+      "mobileNumber": "",
+      "faxNumber": "",
+      "address": "",
+      "city": "",
+      "state": "",
+      "country": "",
+      "zip": "",
+      "extension": ""
+    },
+    "currency": "$"
+  },
+  {
+    "id": 102581542,
+    "type": "Broken",
+    "customerId": 1234,
+    "pcItems": [
+      {
+        "cmsDocHeaderId": 234,
+        "customerId": 0,
+        "committedAmount": 0,
+        "currency": "",
+        "documentNumber": "         dg inv cvghi      77!//?????<    >",
+        "currentInvoiceAmount": 234532
+      },
+      {
+        "cmsDocHeaderId": 234,
+        "customerId": 0,
+        "committedAmount": 0,
+        "currency": "",
+        "documentNumber": "910",
+        "currentInvoiceAmount": 234532
+      }
+    ],
+    "committedAmount": 9876,
+    "committedDate": {
+      "date": {
+        "year": 2019,
+        "month": 9,
+        "day": 29
+      },
+      "time": {
+        "hour": 18,
+        "minute": 44,
+        "second": 3,
+        "nano": 350000000
+      }
+    },
+    "committedOn": {
+      "date": {
+        "year": 2019,
+        "month": 10,
+        "day": 21
+      },
+      "time": {
+        "hour": 18,
+        "minute": 44,
+        "second": 4,
+        "nano": 147000000
+      }
+    },
+    "committedBy": {
+      "isPrimary": false,
+      "type": "",
+      "role": "",
+      "title": "",
+      "firstName": "",
+      "lastName": "",
+      "email": "",
+      "phoneNumber": "",
+      "mobileNumber": "",
+      "faxNumber": "",
+      "address": "",
+      "city": "",
+      "state": "",
+      "country": "",
+      "zip": "",
+      "extension": ""
+    },
+    "currency": "$"
+  },
+  {
+    "id": 102581542,
+    "type": "Broken",
+    "customerId": 1234,
+    "pcItems": [
+      {
+        "cmsDocHeaderId": 234,
+        "customerId": 0,
+        "committedAmount": 0,
+        "currency": "",
+        "documentNumber": "         dg inv cvghi      77!//?????<    >",
+        "currentInvoiceAmount": 234532
+      },
+      {
+        "cmsDocHeaderId": 234,
+        "customerId": 0,
+        "committedAmount": 0,
+        "currency": "",
+        "documentNumber": "910",
+        "currentInvoiceAmount": 234532
+      }
+    ],
+    "committedAmount": 9876,
+    "committedDate": {
+      "date": {
+        "year": 2019,
+        "month": 9,
+        "day": 29
+      },
+      "time": {
+        "hour": 18,
+        "minute": 44,
+        "second": 3,
+        "nano": 350000000
+      }
+    },
+    "committedOn": {
+      "date": {
+        "year": 2019,
+        "month": 10,
+        "day": 21
+      },
+      "time": {
+        "hour": 18,
+        "minute": 44,
+        "second": 4,
+        "nano": 147000000
+      }
+    },
+    "committedBy": {
+      "isPrimary": false,
+      "type": "",
+      "role": "",
+      "title": "",
+      "firstName": "",
+      "lastName": "",
+      "email": "",
+      "phoneNumber": "",
+      "mobileNumber": "",
+      "faxNumber": "",
+      "address": "",
+      "city": "",
+      "state": "",
+      "country": "",
+      "zip": "",
+      "extension": ""
+    },
+    "currency": "$"
+  },
+  {
+    "id": 102581542,
+    "type": "Broken",
+    "customerId": 1234,
+    "pcItems": [
+      {
+        "cmsDocHeaderId": 234,
+        "customerId": 0,
+        "committedAmount": 0,
+        "currency": "",
+        "documentNumber": "         dg inv cvghi      77!//?????<    >",
+        "currentInvoiceAmount": 234532
+      },
+      {
+        "cmsDocHeaderId": 234,
+        "customerId": 0,
+        "committedAmount": 0,
+        "currency": "",
+        "documentNumber": "910",
+        "currentInvoiceAmount": 234532
+      }
+    ],
+    "committedAmount": 9876,
+    "committedDate": {
+      "date": {
+        "year": 2019,
+        "month": 9,
+        "day": 29
+      },
+      "time": {
+        "hour": 18,
+        "minute": 44,
+        "second": 3,
+        "nano": 350000000
+      }
+    },
+    "committedOn": {
+      "date": {
+        "year": 2019,
+        "month": 10,
+        "day": 21
+      },
+      "time": {
+        "hour": 18,
+        "minute": 44,
+        "second": 4,
+        "nano": 147000000
+      }
+    },
+    "committedBy": {
+      "isPrimary": false,
+      "type": "",
+      "role": "",
+      "title": "",
+      "firstName": "",
+      "lastName": "",
+      "email": "",
+      "phoneNumber": "",
+      "mobileNumber": "",
+      "faxNumber": "",
+      "address": "",
+      "city": "",
+      "state": "",
+      "country": "",
+      "zip": "",
+      "extension": ""
+    },
+    "currency": "$"
+  },
+  {
+    "id": 102581542,
+    "type": "Broken",
+    "customerId": 1234,
+    "pcItems": [
+      {
+        "cmsDocHeaderId": 234,
+        "customerId": 0,
+        "committedAmount": 0,
+        "currency": "",
+        "documentNumber": "         dg inv cvghi      77!//?????<    >",
+        "currentInvoiceAmount": 234532
+      },
+      {
+        "cmsDocHeaderId": 234,
+        "customerId": 0,
+        "committedAmount": 0,
+        "currency": "",
+        "documentNumber": "910",
+        "currentInvoiceAmount": 234532
+      }
+    ],
+    "committedAmount": 9876,
+    "committedDate": {
+      "date": {
+        "year": 2019,
+        "month": 9,
+        "day": 29
+      },
+      "time": {
+        "hour": 18,
+        "minute": 44,
+        "second": 3,
+        "nano": 350000000
+      }
+    },
+    "committedOn": {
+      "date": {
+        "year": 2019,
+        "month": 10,
+        "day": 21
+      },
+      "time": {
+        "hour": 18,
+        "minute": 44,
+        "second": 4,
+        "nano": 147000000
+      }
+    },
+    "committedBy": {
+      "isPrimary": false,
+      "type": "",
+      "role": "",
+      "title": "",
+      "firstName": "",
+      "lastName": "",
+      "email": "",
+      "phoneNumber": "",
+      "mobileNumber": "",
+      "faxNumber": "",
+      "address": "",
+      "city": "",
+      "state": "",
+      "country": "",
+      "zip": "",
+      "extension": ""
+    },
+    "currency": "$"
+  },
+  {
+    "id": 102581542,
+    "type": "Broken",
+    "customerId": 1234,
+    "pcItems": [
+      {
+        "cmsDocHeaderId": 234,
+        "customerId": 0,
+        "committedAmount": 0,
+        "currency": "",
+        "documentNumber": "         dg inv cvghi      77!//?????<    >",
         "currentInvoiceAmount": 234532
       },
       {
@@ -146,6 +1251,184 @@
     "currency": "$"
   },
   {
+    "id": 102581542,
+    "type": "Broken",
+    "customerId": 1234788,
+    "pcItems": [
+      {
+        "cmsDocHeaderId": 234,
+        "customerId": 0,
+        "committedAmount": 0,
+        "currency": "",
+        "documentNumber": "12345",
+        "currentInvoiceAmount": 445234532
+      },
+      {
+        "cmsDocHeaderId": 234,
+        "customerId": 0,
+        "committedAmount": 0,
+        "currency": "",
+        "documentNumber": "678",
+        "currentInvoiceAmount": 434532
+      },
+      {
+        "cmsDocHeaderId": 234,
+        "customerId": 0,
+        "committedAmount": 0,
+        "currency": "",
+        "documentNumber": "678",
+        "currentInvoiceAmount": 434532
+      },
+      {
+        "cmsDocHeaderId": 234,
+        "customerId": 0,
+        "committedAmount": 0,
+        "currency": "",
+        "documentNumber": "987654321",
+        "currentInvoiceAmount": 434532
+      }
+    ],
+    "committedAmount": 986549887,
+    "committedDate": {
+      "date": {
+        "year": 2019,
+        "month": 10,
+        "day": 21
+      },
+      "time": {
+        "hour": 18,
+        "minute": 44,
+        "second": 3,
+        "nano": 350000000
+      }
+    },
+    "committedOn": {
+      "date": {
+        "year": 2019,
+        "month": 10,
+        "day": 21
+      },
+      "time": {
+        "hour": 18,
+        "minute": 44,
+        "second": 4,
+        "nano": 147000000
+      }
+    },
+    "committedBy": {
+      "isPrimary": false,
+      "type": "",
+      "role": "",
+      "title": "",
+      "firstName": "",
+      "lastName": "",
+      "email": "",
+      "phoneNumber": "",
+      "mobileNumber": "",
+      "faxNumber": "",
+      "address": "",
+      "city": "",
+      "state": "",
+      "country": "",
+      "zip": "",
+      "extension": ""
+    },
+    "currency": "$"
+  },
+  {
+    "id": 102581542,
+    "type": "Broken",
+    "customerId": 696969696969,
+    "pcItems": [
+      {
+        "cmsDocHeaderId": 234,
+        "customerId": 0,
+        "committedAmount": 0,
+        "currency": "",
+        "documentNumber": "12345",
+        "currentInvoiceAmount": 445234532
+      },
+      {
+        "cmsDocHeaderId": 234,
+        "customerId": 0,
+        "committedAmount": 0,
+        "currency": "",
+        "documentNumber": "678",
+        "currentInvoiceAmount": 434532
+      },
+      {
+        "cmsDocHeaderId": 234,
+        "customerId": 0,
+        "committedAmount": 0,
+        "currency": "",
+        "documentNumber": "678",
+        "currentInvoiceAmount": 434532
+      },
+      {
+        "cmsDocHeaderId": 234,
+        "customerId": 0,
+        "committedAmount": 0,
+        "currency": "",
+        "documentNumber": "987654321",
+        "currentInvoiceAmount": 434532
+      },
+      {
+        "cmsDocHeaderId": 234,
+        "customerId": 0,
+        "committedAmount": 0,
+        "currency": "",
+        "documentNumber": "987654321",
+        "currentInvoiceAmount": 434532
+      }
+    ],
+    "committedAmount": 986549887,
+    "committedDate": {
+      "date": {
+        "year": 2019,
+        "month": 10,
+        "day": 21
+      },
+      "time": {
+        "hour": 18,
+        "minute": 44,
+        "second": 3,
+        "nano": 350000000
+      }
+    },
+    "committedOn": {
+      "date": {
+        "year": 2019,
+        "month": 10,
+        "day": 21
+      },
+      "time": {
+        "hour": 18,
+        "minute": 44,
+        "second": 4,
+        "nano": 147000000
+      }
+    },
+    "committedBy": {
+      "isPrimary": false,
+      "type": "",
+      "role": "",
+      "title": "",
+      "firstName": "",
+      "lastName": "",
+      "email": "",
+      "phoneNumber": "",
+      "mobileNumber": "",
+      "faxNumber": "",
+      "address": "",
+      "city": "",
+      "state": "",
+      "country": "",
+      "zip": "",
+      "extension": ""
+    },
+    "currency": "$"
+  },
+  {
     "id": 102581545,
     "type": "Broken",
     "customerId": 1234788,
@@ -213,75 +1496,6 @@
         "currency": "",
         "documentNumber": "678",
         "currentInvoiceAmount": 434532
-      },
-      {
-        "cmsDocHeaderId": 234,
-        "customerId": 0,
-        "committedAmount": 0,
-        "currency": "",
-        "documentNumber": "678",
-        "currentInvoiceAmount": 434532
-      }
-    ],
-    "committedAmount": 986549887,
-    "committedDate": {
-      "date": {
-        "year": 2019,
-        "month": 10,
-        "day": 21
-      },
-      "time": {
-        "hour": 18,
-        "minute": 44,
-        "second": 3,
-        "nano": 350000000
-      }
-    },
-    "committedOn": {
-      "date": {
-        "year": 2019,
-        "month": 10,
-        "day": 21
-      },
-      "time": {
-        "hour": 18,
-        "minute": 44,
-        "second": 4,
-        "nano": 147000000
-      }
-    },
-    "committedBy": {
-      "isPrimary": false,
-      "type": "",
-      "role": "",
-      "title": "",
-      "firstName": "",
-      "lastName": "",
-      "email": "",
-      "phoneNumber": "",
-      "mobileNumber": "",
-      "faxNumber": "",
-      "address": "",
-      "city": "",
-      "state": "",
-      "country": "",
-      "zip": "",
-      "extension": ""
-    },
-    "currency": "$"
-  },
-  {
-    "id": 102581542,
-    "type": "Broken",
-    "customerId": 1234788,
-    "pcItems": [
-      {
-        "cmsDocHeaderId": 234,
-        "customerId": 0,
-        "committedAmount": 0,
-        "currency": "",
-        "documentNumber": "12345",
-        "currentInvoiceAmount": 445234532
       },
       {
         "cmsDocHeaderId": 234,
